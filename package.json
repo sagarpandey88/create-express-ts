@@ -1,15 +1,23 @@
 {
-  "name": "expressjs-typescript",
+  "name": "@toolit/create-express-ts",
   "version": "1.0.0",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sagarpandey88/create-express-ts.git"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
-  },  
+  },
   "bin": {
     "create-express-ts": "./bin/create-express-ts.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": ""
+  "description": "express js with typescript scaffolding generator. Just run npx @toolit/create-express-ts",
+  "bugs": {
+    "url": "https://github.com/sagarpandey88/toolit/issues"
+  },
+  "homepage": "https://github.com/sagarpandey88/toolit#readme"
 }
